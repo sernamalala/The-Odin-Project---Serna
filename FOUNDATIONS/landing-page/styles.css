@@ -1,0 +1,65 @@
+body{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.upper-head{
+    display: flex;
+    justify-content: space-around;
+}
+.upper-head p{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+header{
+    background-color: #1F2937;
+    padding-bottom: 40px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    
+}
+ul li{
+    padding: 10px;
+    
+}
+a{
+    text-decoration: none;
+}
+.sub-header{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 50px;
+}
+h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.information{
+    width: 500px;
+}
+.information p, a{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.information button{
+    height: 35px;
+    width: 90px;
+    color: #E5E7EB;
+    font-size: 20px;
+    background-color: blue;
+    border: none;
+    border-radius: 8px;
+}
+.image{
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    
+}
+img{
+    width: 300px;
+    height: 250px;
+}
